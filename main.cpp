@@ -44,17 +44,19 @@ std::cin >> options;
     std::cin >> a;
     std::cout << "Enter another number: ";
     std::cin >> b;
+        
     sum = a + b;
     std::cout << sum;
     break;
+        
     //Subtraction
-
     case 2:
     std::cout << "Subtract: \n";
     std::cout << "Enter a number: ";
     std::cin >> a;
     std::cout << "Enter another number: ";
     std::cin >> b;
+        
     sum = a - b;
     std::cout << sum;
     break;
@@ -66,6 +68,7 @@ std::cin >> options;
     std::cin >> a;
     std::cout << "Enter another number: ";
     std::cin >> b;
+        
     sum = a / b;
     std::cout << sum;
     break;
@@ -77,6 +80,7 @@ std::cin >> options;
     std::cin >> a;
     std::cout << "Enter another number: ";
     std::cin >> b;
+        
     sum = a * b;
     std::cout << sum;
     break;
@@ -88,8 +92,8 @@ std::cin >> options;
     std:: cin >> c;
     std::cout << "Enter another number: ";
     std::cin >> d;
+        
     sumtwo = c / d;
-
     std::cout << sumtwo;
     break;
 
@@ -100,8 +104,8 @@ std::cin >> options;
     std::cin >> e;
     std::cout << "Enter another number: ";
     std::cin >> f;
+        
     sumthree = e + f;
-
     std::cout << sumthree;
     break;
 
@@ -112,6 +116,7 @@ std::cin >> options;
     std::cin >> c;
     std::cout << "Enter another number: ";
     std::cin >> d;
+        
     sumtwo = c * d;
     std::cout << sumtwo;
     break;
@@ -123,6 +128,7 @@ std::cin >> options;
     std::cin >> e;
     std::cout << "Enter a number: ";
     std::cin >> f;
+        
     sumthree = e * f;
     std::cout << sumthree;
     break;
